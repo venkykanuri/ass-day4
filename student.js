@@ -36,7 +36,7 @@ function displaystudentdetails() {
   studentlist.forEach((detail) => {
     const listelement = document.createElement("li");
     listelement.innerHTML =
-      detail.name + " " + detail.phnno + " " + detail.email;
+      " Name : " + detail.name + " mobile : " + detail.phnno + " mail :" + detail.email;
     studentlistelement.appendChild(listelement);
     console.log(listelement);
   });
